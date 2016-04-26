@@ -1,23 +1,18 @@
 {
-  "name": "close-after-last-tab",
-  "main": "./lib/close-after-last-tab",
-  "version": "0.1.6",
-  "description": "Close the window after the last tab has been closed.",
-  "repository": "https://github.com/JRHeaton/atom-close-after-last-tab",
+  "name": "close-after-last-tab-with-git",
+  "main": "./lib/close-after-last-tab-with-git",
+  "version": "0.0.1",
+  "description": "Close the window after the last tab has been closed with a git folder.",
+  "repository": "https://github.com/tapajos/atom-close-after-last-tab-with-git",
   "license": "MIT",
   "author": {
-    "name": "John Heaton",
-    "email": "jheaton.dev@gmail.com"
+    "name": "Marcos Tapajos",
+    "email": "tapajos@gmail.com"
   },
   "contributors": [
     {
-      "name": "Dan Zimmerman",
-      "url": "http://danzimm.com"
-    },
-    {
-      "name": "Jason Tokoph",
-      "url": "http://jasontokoph.com",
-      "email": "jason@tokoph.net"
+      "name": "John Heaton",
+      "email": "jheaton.dev@gmail.com"
     }
   ],
   "activationEvents": [
