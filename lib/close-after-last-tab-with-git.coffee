@@ -5,5 +5,5 @@ module.exports =
       if atom.workspace.getTextEditors().length is 0
         if atom.project.getDirectories().length is 1
           splitedPath = atom.project.getDirectories()[0].path.split("/")
-          if splitedPath[(splitedPath.length-1)] is ".git"
+          if splitedPath[(splitedPath.length-1)] is ".git" or splitedPath[(splitedPath.length-1)] is "rebase-merge"
             atom.close()
